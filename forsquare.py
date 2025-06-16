@@ -7,7 +7,7 @@ if os.path.exists(dotenv_path):
     load_dotenv(dotenv_path)
 
 # === Базовые настройки ===
-ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")  # Ваш Bearer-токен
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 BASE_URL = "https://api.foursquare.com/v3/places/search"
 
 
